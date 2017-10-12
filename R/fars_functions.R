@@ -154,4 +154,5 @@ fars_map_state <- function(state.num, year) {
               xlim = range(LONGITUD, na.rm = TRUE))
     graphics::points(LONGITUD, LATITUDE, pch = 46)
   })
+
 }
