@@ -1,0 +1,14 @@
+Package: rfars
+Type: Package
+Title: read and visualize Fatality Analysis Recording System FARS data.
+Version: 0.1.0
+Author: Amr Hassan
+Maintainer: Amr Hassan <amr@hassan.com>
+Description: This package has several functions to read and visualize Fatality Analysis Recording System FARS data.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1

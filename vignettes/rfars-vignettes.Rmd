@@ -1,0 +1,22 @@
+---
+title: "Fatality Analysis Reporting System (FARS)"
+author: "Amr Hassan"
+date: "2017-10-12"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fatality Analysis Reporting System (FARS)}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This package has several functions to read and visualize Fatality Analysis Recording System FARS data.
+
+## Functions
+
+Here is a list of functions in the package:
+
+- fars_read()
+- make_filename()
+- fars_read_years()
+- fars_summarize_years()
+- fars_map_state()
