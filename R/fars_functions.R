@@ -16,10 +16,10 @@
 #'
 #' @export
 fars_read <- function(filename) {
-  if(!file.exists(filename))
+  if(!file.exists(file.path("~", "rfars", filename)))
     stop("file '", filename, "' does not exist")
   data <- suppressMessages({
-    readr::read_csv(filename, progress = FALSE)
+    readr::read_csv(file.path("~", "rfars", filename), progress = FALSE)
   })
   dplyr::tbl_df(data)
 }
