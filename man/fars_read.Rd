@@ -10,14 +10,14 @@ fars_read(filename)
 \item{filename}{csv file containing data}
 }
 \value{
-\code{fars_read} import and read the file as a data frame tbl, if it exists. 
+\code{fars_read} import and read the file as a data frame tbl, if it exists.
   If it does not exist an error message will be returned.
 }
 \description{
-\code{fars_read} reads in the US National Highway Traffic Safety 
+\code{fars_read} reads in the US National Highway Traffic Safety
   Administration's Fatality Analysis Reporting System data.
 }
 \examples{
-fars_read("data/my_fars_data.csv")
+fars_read("accident_2013.csv.bz2")
 
 }

@@ -13,11 +13,11 @@ fars_summarize_years(years)
 \code{fars_summarize_years} will return data frame.
 }
 \description{
-\code{fars_summarize_years} will read in multiple Fatality Analysis Reporting 
+\code{fars_summarize_years} will read in multiple Fatality Analysis Reporting
   System data files based on the years provided and summarise the number of
   observations by year and month.
 }
 \examples{
-fars_summarize_years(2015:2016)
+fars_summarize_years(2013:2015)
 
 }

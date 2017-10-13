@@ -10,12 +10,12 @@ fars_read_years(years)
 \item{years}{The years to be read in}
 }
 \value{
-\code{fars_read_years} will search for the file names based on the 
-  years provided. For example, if 2015:2016 is provided \code{fars_read_years}
+\code{fars_read_years} will search for the file names based on the
+  years provided. For example, if 2013:2015 is provided \code{fars_read_years}
   will search for the following files:
   \itemize{
+    \item "accident_2013.csv.bz2"
     \item "accident_2015.csv.bz2"
-    \item "accident_2016.csv.bz2"
   }
   If the files exist a list containing the respective data will be returned.
   If the files do not exist an error will be returned stating the invalid year(s).
@@ -24,7 +24,7 @@ fars_read_years(years)
 \code{fars_read_years} will read in multiple data files based on the years provided.
 }
 \examples{
-fars_read_years(2015:2016)
+fars_read_years(2013:2015)
 
 }
 \seealso{
